@@ -15,7 +15,7 @@ function trocaCor() {
     body.style.color = 'white'
     btn.style.color = 'white'
     btnLight.style.color = 'white'
-    header.src = '/portfolio/img/transferir.png'
+    header.src = '/img/transferir.png'
 
 
 }
@@ -25,6 +25,6 @@ function retornaCor() {
     body.style.color = 'black'
     btnLight.style.color = 'black'
     btn.style.color = 'black'
-    header.src ='/portfolio/img/6528597.png'
+    header.src ='/img/6528597.png'
     
 }
