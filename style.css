@@ -129,7 +129,7 @@ footer {
 
 }
 .projeto1:hover{
-    padding: 40px;
+    width: 180px;
 }
 .projeto1 img{
    border-radius:8px ;
@@ -157,7 +157,7 @@ footer {
 }
 
 .projeto2:hover{
-    padding: 40px;
+    width: 160px;
 }
 .projeto2 img{
     border-radius:8px ;
@@ -174,8 +174,9 @@ footer {
     box-shadow: none ;  
 }
 .projetos div{
-    display: flex;
-    justify-content: space-between;
+ margin-left: 160px;
+  
+    
     
 }
 
@@ -188,7 +189,7 @@ footer {
 }
 
 .projeto3:hover{
-    padding: 40px;
+    width: 180px;
 }
 
 .projeto3 a{
