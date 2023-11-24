@@ -125,12 +125,10 @@ footer {
     border: 1px solid;
     border-radius: 10px;
     width: 150px;
-    transition: all 0.5s;
 
 }
-.projeto1:hover{
-    width: 180px;
-}
+
+
 .projeto1 img{
    border-radius:8px ;
    
@@ -153,12 +151,10 @@ footer {
     border: 1px solid;
     border-radius: 10px;
     width: 150px;
-    transition: all 0.5s;
+   
 }
 
-.projeto2:hover{
-    width: 160px;
-}
+
 .projeto2 img{
     border-radius:8px ;
 }
@@ -174,9 +170,9 @@ footer {
     box-shadow: none ;  
 }
 .projetos div{
- margin-left: 160px;
-  
-    
+    display: flex;
+    justify-content: center;
+   
     
 }
 
@@ -185,12 +181,11 @@ footer {
     border: 1px solid;
     border-radius: 10px;
     width: 150px;
-    transition: all 0.5s;
+    
 }
 
-.projeto3:hover{
-    width: 180px;
-}
+
+
 
 .projeto3 a{
     text-decoration: none;
