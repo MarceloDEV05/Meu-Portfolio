@@ -25,21 +25,6 @@ header img {
 
 }
 
-ul li {
-    display: inline;
-    padding: 15px;
-    padding-right: 60px;
-}
-
-ul li a {
-    text-decoration: none;
-    color: rgb(211, 11, 11);
-}
-
-a:hover {
-    box-shadow: 0 1px 0;
-}
-
 section {
     padding: 50px;
 
@@ -60,17 +45,19 @@ section button {
     border: 1px solid;
     cursor: pointer;
     background-image: linear-gradient(rgb(119, 199, 236), rgba(226, 62, 111, 0.795));
+    transition: all 0.5s;
 
 }
 
 section button a {
     text-decoration: none;
-    color: black;
+    color: rgb(5, 5, 5);
 
 }
 
 section button:hover {
     background-color: blue;
+    padding: 10px;
 }
 
 aside {
@@ -130,6 +117,7 @@ footer {
 
 .projetos h1{
     text-align: center;
+    
 }
 
 .projeto1{
@@ -137,12 +125,17 @@ footer {
     border: 1px solid;
     border-radius: 10px;
     width: 150px;
+    transition: all 0.5s;
 
 }
-
+.projeto1:hover{
+    padding: 40px;
+}
 .projeto1 img{
    border-radius:8px ;
+   
 }
+
 
 .projeto1 a{
     text-align: center;
@@ -160,6 +153,11 @@ footer {
     border: 1px solid;
     border-radius: 10px;
     width: 150px;
+    transition: all 0.5s;
+}
+
+.projeto2:hover{
+    padding: 40px;
 }
 .projeto2 img{
     border-radius:8px ;
@@ -177,7 +175,7 @@ footer {
 }
 .projetos div{
     display: flex;
-    justify-content: center;
+    justify-content: space-between;
     
 }
 
@@ -186,6 +184,23 @@ footer {
     border: 1px solid;
     border-radius: 10px;
     width: 150px;
+    transition: all 0.5s;
+}
+
+.projeto3:hover{
+    padding: 40px;
+}
+
+.projeto3 a{
+    text-decoration: none;
+    color: black;
+    box-shadow: none;
+}
+
+.projeto3 button{
+    background-color: transparent;
+    border: none;
+    cursor: pointer;
 }
 
 .habilidades h1{

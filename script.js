@@ -7,6 +7,7 @@ let img = document.getElementById('imagem')
 let header = document.getElementById('head')
 
 
+
 btn.addEventListener('click', trocaCor)
 btnLight.addEventListener('click', retornaCor)
 
