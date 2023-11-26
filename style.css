@@ -157,6 +157,7 @@ footer {
 
 .projeto2 img{
     border-radius:8px ;
+    
 }
 .projeto2 button{
     cursor: pointer;
@@ -172,6 +173,7 @@ footer {
 .projetos div{
     display: flex;
     justify-content: center;
+    text-align: center;
    
     
 }
@@ -199,6 +201,26 @@ footer {
     cursor: pointer;
 }
 
+.projeto4{
+    padding: 30px;
+    border: 1px solid;
+    border-radius: 10px;
+    width: 150px;
+}
+
+.projeto4 img{
+    border-radius: 8px;
+}
+
+.projeto4 button{
+    background-color: transparent;
+    border: none;
+}
+
+.projeto4 a{
+    text-decoration: none;
+    color: black;
+}
 .habilidades h1{
     text-align: center;
 
@@ -226,6 +248,8 @@ footer {
     .projetos div {
         flex-direction: column;
         align-items: center;
+        
+        
     }
     
     .sobre p{
