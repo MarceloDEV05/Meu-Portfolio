@@ -4,11 +4,13 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    scroll-behavior: smooth;
 }
 
 body{
     font-family: poppins;
     color: white;
+    
 }
 
 .containerHeader{
@@ -16,7 +18,7 @@ body{
     width: 100%;
     height: 80px;
     background-color: black;
-    border-bottom: 3px solid ;
+    border-bottom: 3px solid #00ff00;
 }
 
 .containerHeader header{
@@ -37,5 +39,58 @@ body{
 }
 
 .containerHeader a:hover{
+    box-shadow: 0 1px 0;
+}
 
+.containerBody{
+    background-color: #000;
+    padding-top: 170px;
+    height: 100vh;
+    color: white;
+    display: flex;
+    justify-content: space-around;
+}
+
+.containerBody h1{
+    font-size:40px;
+    color: #00ff00;
+}
+
+
+
+.containerBody p{
+    font-size: 20px;
+}
+
+.containerBody button{
+    padding: 10px;
+    border-radius: 50px;
+    color: white;
+    background-color: #000;
+    border: 1px solid #00ff00;
+
+}
+
+.containerBody button#btn1{
+    background-image: linear-gradient(#00ff00, #000);
+    border: none;
+}
+
+.containerSub{
+    padding-top: 50px;
+    text-align: center;
+    background-color:  #000000;
+}
+
+.containerSub p{
+    text-align: center;
+    align-items: center;
+    padding-left: 10%;
+    padding-right: 10%;
+}
+
+.containerProject{
+    padding-top: 50px;
+    text-align: center;
+    background-color: #000;
 }
