@@ -98,46 +98,36 @@ body {
 .containerProject img{
     padding: 15px;
    border-radius: 30px;
+   
 }
 
-.img1{
-    border: 1px solid #fff;
+.img1 {
     text-align: center;
     justify-content: center;
-    margin-left: 70px;
-    width: 400px;
-    
+    border-radius: 15px;
+    display: grid;
     
 }
 .img2{
-    border: 1px solid #fff;
     text-align: center;
     justify-content: center;
-    margin-left: 480px;
-    width: 400px;
+    border-radius: 15px;
     
 }
 .img3{
-    border: 1px solid #fff;
     text-align: center;
     justify-content: center;
-    margin-left: 70px;
-    width: 400px;
+    border-radius: 15px;
     
 }
 .img4{
-    border: 1px solid #fff;
     text-align: center;
     justify-content: center;
-    margin-left: 480px;
-    width: 400px;
-    
+    border-radius: 15px;
 }
 .img5{
-    border: 1px solid #fff;
     text-align: center;
     justify-content: center;
-    margin-left: 70px;
-    width: 400px;
+    border-radius: 15px;
     
 }
