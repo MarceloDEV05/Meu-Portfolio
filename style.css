@@ -1,0 +1,89 @@
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script&family=Ephesis&family=Montserrat:ital,wght@0,200;1,200&family=Nunito:wght@300&family=Poppins:ital,wght@0,200;0,300;1,200&family=Tomorrow:ital,wght@0,300;1,700&display=swap');
+
+body{
+    background-color: black;
+    color: white;
+    font-family: poppins;
+    text-align: center;
+}
+
+header{
+    display: flex;
+    justify-content: space-around;
+    margin: 1.1rem;
+    align-items: center;
+    border-bottom: 3px solid aqua;
+}
+
+nav ul li{
+    display: inline;
+    padding: 0 40px;
+    
+}
+
+nav ul li a{
+    text-decoration: none;
+    color: white;
+}
+
+li button{
+    padding: 15px;
+    border-radius: 20px;
+    border: none;
+    background-image: linear-gradient(black,aquamarine);
+
+}
+
+main.interface{
+    padding-top: 50px;
+    display: flex;
+    justify-content: space-around;
+    font-size: 35px;
+    line-height: 2px;
+    align-items: center;
+}
+
+main.interface article{
+    animation: flutuant 3s infinite;
+}
+
+main.interface button{
+    padding: 10px;
+    border-radius: 20px;
+    border: none;
+    background-image: linear-gradient(black, aquamarine);
+    
+}
+
+.flutuant{
+    animation-name: flutuant;
+    animation-duration: 3s;
+    animation-timing-function: ease-in-out;
+    animation-iteration-count: infinite;
+}
+
+@keyframes flutuant {
+    0%{
+        transform: translate(0,0px);
+    }
+
+    50%{
+        transform: translate(0,15px);
+    }
+}
+
+
+aside h1{
+    text-align: center;
+}
+
+aside.sobre{
+    padding-top: 150px;
+    text-align: center;
+   
+}
+
+.about {
+    max-width: 600px;
+    margin: 0 auto;
+}
