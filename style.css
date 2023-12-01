@@ -161,3 +161,42 @@ aside.sobre{
     display: inline;
     margin: 0 auto;
 }
+
+
+@media screen and (max-width:600px) {
+    body{
+        text-align: center;
+    }
+    
+    header{
+        text-align: center;
+        flex-direction: column;
+    }
+
+     nav ul li{
+        display: none;
+    }
+
+    main.interface article{
+        display: none;
+        
+    }
+
+    main.interface h1{
+        font-size: 30px;
+    }
+    main.interface p{
+        font-size: 25px;
+    }
+
+    .flex a{
+       border: none;
+       text-align: center;
+       flex-direction: column;
+       
+    }
+
+    .flex2 a{
+        border: none;
+    }
+}
