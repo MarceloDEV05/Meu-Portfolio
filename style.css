@@ -58,6 +58,8 @@ main.interface {
 
 main.interface p {
     color: gray;
+    line-height: 30px;
+    max-width: 600px;
 }
 
 main.interface article {
@@ -71,6 +73,7 @@ main.interface button {
     border: 1px solid aqua;
     background-color: black;
     transition: 0.2s;
+    
 }
 
 main.interface button:hover{
@@ -96,21 +99,7 @@ main.interface button:hover{
 }
 
 
-aside h1 {
-    text-align: center;
-}
 
-aside.sobre {
-    padding-top: 150px;
-    text-align: center;
-
-}
-
-.about {
-    max-width: 600px;
-    margin: 0 auto;
-    color: gray;
-}
 
 .projetos {
     padding-top: 50px;
