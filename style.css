@@ -132,7 +132,7 @@ main.interface button:hover{
 .flex2 {
     margin: 0 auto;
     display: flex;
-    gap: 30px;
+    
     padding: 20px;
 }
 
