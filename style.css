@@ -2,223 +2,176 @@
 
 * {
     scroll-behavior: smooth;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box ;
+    
 }
 
 body {
-    background-color: black;
-    color: white;
+    color: rgb(0, 0, 0);
     font-family: poppins;
+}
+
+.container-header{
+    position: fixed;
+    width: 100%;
+    height: 70px;
+    background-color: #fff;
+    color: #000000;
+    box-shadow: 0 5px 10px rgb(48,48,155);
+}
+
+
+.container-header header{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin: 1.1rem;
+    font-size: 14px;
+
+}
+
+.container-header ul li {
+ display: inline;
+ padding: 10px;
+ 
+}
+
+.container-header ul li a{
+    text-decoration: none;
+    color: #000000;
+}
+
+.container-header ul li a:hover{
+    border-bottom: 1px solid blue;
+    color: rgb(0, 0, 155);
+}
+
+.container-header button{
+    padding: 10px;
+    border-radius: 20px;
+    border: none;
+    cursor: pointer;
+    width: 150px;
+    color: white;
+    background-image: linear-gradient(45deg, rgb(59, 59, 165),rgb(65, 65, 218));
+    transition: all 0.5s ease-in-out;
+
+}
+
+.container-header button:hover{
+    width: 155px;
+}
+
+.container-body{
+    padding-top: 30px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 100vh;
+}
+
+.container-body section{
+    font-size: 25px;
+
+}
+
+.container-body p{
+    max-width: 600px;
+    font-size: 20px;
     text-align: center;
 }
 
-::-webkit-scrollbar {
-    background-color: rgb(10, 10, 10);
+.container-body article img{
+    border-radius: 50%;
 }
 
-::-webkit-scrollbar-thumb {
-    background-color: aqua;
-    height: 10px;
-    border-radius: 20px;
+.container-body button{
+  margin-left: 50px;
+  padding: 10px;
+  border-radius: 50px;
+  width: 200px;
+  border:none;
+  background-image: linear-gradient(45deg, rgb(37, 37, 206), rgb(8, 8, 68)) ;
+  color: white;
+  cursor: pointer;
+  transition: all 0.5s ease-in-out;
 }
 
-header {
-    display: flex;
-    justify-content: space-around;
-    margin: 1.1rem;
-    align-items: center;
-    border-bottom: 3px solid aqua;
+.container-body button:hover{
+    width: 210px;
 }
 
-nav ul li {
-    display: inline;
-    padding: 0 30px;
-
-}
-
-nav ul li a {
+.container-body a{
     text-decoration: none;
     color: white;
 }
 
-
-
-.interface button a{
-    text-decoration: none;
-    color: white;
-}
-
-main.interface {
-    padding-top: 50px;
-    display: flex;
-    justify-content: space-around;
-    font-size: 35px;
-    line-height: 2px;
-    align-items: center;
-}
-
-main.interface p {
-    color: gray;
-    line-height: 30px;
-    max-width: 600px;
-}
-
-main.interface article {
-    animation: flutuant 3s infinite;
-}
-
-main.interface button {
-    margin: 1.1rem;
-    padding: 10px;
-    border-radius: 20px;
-    border: 1px solid aqua;
-    background-color: black;
-    transition: 0.2s;
+.container-main{
+    height: 50vh;
+    padding-top: 20px;
+    background-color: #ffffff;
+    text-align: center;
+    color: rgb(0, 0, 0);
     
 }
 
-main.interface button:hover{
-    border: none;
-    box-shadow: 0px 0px 8px 3px aqua;
-}
-
-.flutuant {
-    animation-name: flutuant;
-    animation-duration: 3s;
-    animation-timing-function: ease-in-out;
-    animation-iteration-count: infinite;
-}
-
-@keyframes flutuant {
-    0% {
-        transform: translate(0, 0px);
-    }
-
-    50% {
-        transform: translate(0, 15px);
-    }
-}
-
-
-
-
-.projetos {
+.container-main main{
     padding-top: 50px;
+    padding-bottom: 50px;
+
 }
 
+.container-projetos{
+    text-align: center;
+    padding-top: 50px;
+   
+}
 
 .flex{
-    
-    display: flex;
-    text-align: center;
-    justify-content: center;
-    gap: 20px;
-   
-}
-.flex a{
-    border: 1px solid aqua;
-    text-align: center;
-    padding-top:20px ;
-    width: 199px;
-    padding: 10px;
-    text-decoration: none;
-    color: rgb(0, 0, 0);
-    background-color: azure;
-    border-radius: 8px;
-}
-
-.flex2{
-    display: flex;
-    text-align: center;
-    justify-content: center;
-    gap: 20px;
-    padding-top: 20px;
-   
-}
-
-.flex2 a{
-    border: 1px solid;
-    text-align: center;
-    padding-top:20px ;
-    width: 199px;
-    padding: 10px;
-    text-decoration: none;
-    color: rgb(0, 0, 0);
-    background-color: azure;
-    border-radius: 8px;
-}
-
-
-.skills {
     padding-top: 50px;
-}
-
-.sks div {
-    padding: 20px;
-    display: inline;
+    display: flex;
+    gap: 30px;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    flex-wrap: wrap;
+    max-width: 860px;
     margin: 0 auto;
+    
+    
 }
 
+.flex div{
+    border: none;
+    padding-top: 20px;
+    width: 250px;
+    height: 400px;
+    box-shadow: 5px 10px 20px 0 rgb(37, 37, 124);
+    border-radius: 20px;
+}
 
-@media screen and (max-width:600px) {
-    body {
-        text-align: center;
-    }
+.flex div h1{
+    font-size: 25px;
+}
+.flex div button{
+    padding: 10px;
+    margin-top: 10px;
+    width: 200px;
+    border-radius: 50px;
+    border: none;
+    color: white;
+    background-image: linear-gradient(45deg, rgb(17, 17, 83), rgb(40, 40, 211));
 
-    header {
-        text-align: center;
-        flex-direction: column;
-    }
+}
 
-    nav ul li {
-        display: none;
-    }
+.flex div button a{
+    text-decoration: none;
+    color: white;
+}
 
-    main.interface article {
-        display: none;
-
-    }
-
-    main.interface h1 {
-        font-size: 30px;
-    }
-
-    main.interface p {
-        font-size: 25px;
-    }
-
-    .flex {
-        margin: 0 auto;
-        flex-direction: column;
-        justify-content: center;
-
-    }
-
-    .flex a {
-        text-align: center;
-        flex-direction: column;
-        justify-content: center;
-        margin: 0 auto;
-
-
-    }
-
-   .flex2 {
-        
-        margin:0 auto;
-        flex-direction: column;
-        text-align: center;
-        align-items: center;
-        justify-content: center;
-       
-    }
-
-    .flex2 a {
-        text-align: center;
-        
-    }
-
-    .skills{
-        text-align: center;
-        margin: 0 auto
-    }
+.container-contato{
+    padding-top: 70px;
+    text-align: center;
 }
