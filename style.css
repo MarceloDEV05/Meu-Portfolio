@@ -194,3 +194,55 @@ body {
     gap: 30px;
 }
 
+
+@media screen and (max-width:600px) {
+    
+    body{
+        text-align: center;
+        justify-content: center;
+    }
+    
+    .container-header{
+        position: relative;
+        color: #000000;
+        box-shadow:none;
+    }
+
+    .container-header header{
+        flex-direction: column;
+    }
+
+    .container-header ul li{
+        display: none;
+    }
+
+    .container-body {
+        flex-direction: column-reverse;
+        padding-top: 150px;
+    }
+    .container-body h1{
+        text-align: center;
+    
+    }
+
+    .container-body article img{
+        width: 350px;
+    }
+
+    .container-body button{
+        margin: 0 auto;
+       
+    }
+
+    .container-main{
+        padding-top: 150px;
+    }
+
+    .container-projetos{
+        padding-top: 150px;
+    }
+
+    .container-contatos section{
+        gap: 10px;
+    }
+}
